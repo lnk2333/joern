@@ -10,4 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: scalacenter/sbt-dependency-submission@v2
+#       - uses: scalacenter/sbt-dependency-submission@v2
+      - name: Sbt Dependency Submission
+        uses: scalacenter/sbt-dependency-submission@v2.1.0
+
